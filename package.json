@@ -1,0 +1,21 @@
+{
+    "name": "node-data-job",
+    "version": "1.0.0",
+    "description": "job-rw-mongodb",
+    "main": "src/main.ts",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "run:job": "ts-node src/main.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^20.2.6",
+        "@typescript-eslint/eslint-plugin": "^5.59.9",
+        "@typescript-eslint/parser": "^5.59.9",
+        "eslint": "^8.42.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.3"
+    }
+}
